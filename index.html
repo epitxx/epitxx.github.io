@@ -3,12 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Проекты верстка</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-    <h1>Test page</h1>
-    <a href="test.html">Link</a>
-
-    <script src="main.js"></script>
+    <h1 class="title">Проекты верстка</h1>
+    <ul class="projects">
+        <li class="project">
+            <div class="project__img">
+                <img src="img/aura.png" alt="Aura">
+            </div>
+            <div class="project__descr">
+                <h2 class="project__title">Aura</h2>
+                <p class="project__type">Верстка по бесплатному макету</p>
+                <ul class="project__features">
+                    <li class="project__feature">HTML</li>
+                    <li class="project__feature">CSS</li>
+                    <li class="project__feature">JS</li>
+                    <li class="project__feature">Адаптив</li>
+                </ul>
+                <div class="links project__links">
+                    <h3 class="links__title">Ссылки:</h3>
+                    <ul class="links__list">
+                        <li><a href="https://github.com/epitxx/epitxx.github.io/tree/main/projects/aura" class="links__link">Код на GitHub</a></li>
+                        <li><a href="https://www.figma.com/design/MgmcPZnCUpqh1OwFTCQqOL/Aura?node-id=1-1577&node-type=frame&t=tyGp65si9p25ZxAg-0" class="links__link">Макет Figma</a></li>
+                    </ul>
+                </div>
+                <a href="https://epitxx.github.io/projects/aura/index.html" class="project__open-btn">Открыть</a>
+            </div>
+        </li>
+    </ul>
 </body>
 </html>

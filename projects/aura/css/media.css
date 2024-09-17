@@ -1,0 +1,282 @@
+@media (max-width: 1440px) {
+    
+}
+
+@media (max-width: 1260px) {
+    .hero {
+        background-position: calc(100% + 520px) top;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero {
+        background-position: calc(100% + 600px) top;
+    }
+
+    .other-auctions__list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .become-author__container {
+        flex-direction: column;
+    }
+
+    .become-author__text {
+        max-width: 788px;
+    }
+
+    .become-author__descr {
+        margin-bottom: 0;
+    }
+
+    .become-author__img-text {
+        display: none;
+    }
+
+    .become-author__img-form {
+        display: block;
+    }
+    
+}
+
+@media (max-width: 1000px) {
+    .sale-item__sticker-name {
+        /* font-size: 28px; */
+    }
+
+    .sale-item {
+        flex-direction: column;
+        border-radius: 18px;
+    }
+
+    .sale-item__sticker-img {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .sale-item__sticker-img img {
+        min-width: 108px;
+        /* width: 108px; */
+        height: auto;
+    }
+
+    .sale-item__data {
+        margin: 0;
+        margin-top: -32px;
+        padding: 16px;
+    }
+
+}
+
+@media (max-width: 944px) {
+    .hero {
+        height: auto;
+        padding-top: 64px;
+        padding-bottom: 210px;
+        background-image: url("../img/hero-bg-1.png");
+        background-position: left calc(100% + 500px);
+        background-position: -82px calc(100% + 770px);
+    }
+
+    .header__container {
+
+    }
+}
+
+@media (max-width: 850px) {
+    .bet__auction-timer {
+        background-image: none;
+        min-width: auto;
+        flex-grow: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --gap: 16px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 80px 0;
+    }
+
+    .title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .text-input {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    label.file-input {
+        padding: 47px 24px;
+    }
+
+    .header {
+        padding-bottom: 0;
+    }
+
+    .header__container {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .header__nav {
+        border-top: 1px solid #c4c4c4;
+        padding: 10px 0;
+        margin: 0;
+        margin-left: calc(0px - var(--container-pad));
+        margin-top: 15px;
+        min-width: calc(100% + 2 * var(--container-pad));
+        order: 3;
+    }
+
+    .nav__list {
+        justify-content: center;
+    }
+
+    .hero__title {
+        font-size: 35px;
+        line-height: 42px;
+    }
+
+    .hero__btn {
+        font-size: 16px;
+    }
+
+
+    .auction__bet {
+        flex-direction: column;
+    }
+
+    .bet__sticker {
+        width: 296px;
+    }
+
+    .bet__sticker-name {
+        font-size: 30px;
+    }
+
+    .current-bet__price, .auction-timer__value {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+
+    .other-auctions__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .new-stickers__title::before {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+    }
+
+    .become-author__title-small {
+        display: none;
+    }
+
+    .become-author__descr {
+        margin-bottom: 16px;
+    }
+
+    .become-author__img-text {
+        display: block;
+    }
+
+    .become-author__img-form {
+        display: none;
+    }
+
+
+    .sale-item__data {
+        gap: 8px;
+    }
+
+    .sale-item__sticker-name {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .sale-item__price {
+        font-size: 12px;
+        /* font-weight: 700; */
+    }
+
+
+    .sale-top-info__title {
+        font-size: 20px;
+    }
+
+
+    .footer__content {
+        padding-bottom: 0;
+    }
+
+    .footer__container {
+        flex-direction: column;
+    }
+
+    .footer__logo {
+        margin-bottom: 20px;
+    }
+
+    .footer__links {
+        position: relative;
+        justify-content: center;
+        gap: 28px;
+        padding: 12px 0;
+        width: 100%;
+    }
+
+    .footer__links::before {
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: calc(100% + 2 * var(--container-pad));
+        top: 0;
+        left: calc(-var(--container-pad));
+        background-color: var(--color-dark);
+    }
+}
+
+@media (max-width: 650px) {
+    .sale-top-info__container {
+        flex-direction: column;
+        align-items: start;
+    }
+}
+
+
+
+@media (max-width: 420px) {
+    :root {
+        --container-pad: 12px;
+    }
+
+    .nav__link {
+        font-size: 16px;
+    }
+
+    .wallet-btn__text-btn {
+        display: none;
+    }
+
+    .wallet-btn__icon-btn {
+        display: block;
+    }
+
+    
+}

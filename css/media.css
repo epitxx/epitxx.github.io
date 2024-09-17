@@ -1,0 +1,30 @@
+@media (max-width: 1024px) {
+    .projects {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 12px;
+    }
+
+    .project {
+        flex-direction: column;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .project__img {
+        width: 100%;
+        max-width: 100%;
+        border: none;
+        border-bottom: 1px solid white;
+        border-radius: 0;
+        aspect-ratio: 1;
+    }
+
+    .project__descr {
+        padding: 0 20px 20px 20px;
+    }
+}
